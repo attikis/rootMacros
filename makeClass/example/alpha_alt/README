@@ -1,0 +1,17 @@
+INSTRUCTIONS
+------------
+Modifications to the header file to run with a filename as argument
+Run it with runAlpha_T.cc (.x runAlpha_T.cc("sampleName") ) where sampleName.txt is the
+file containing the list of files to be processed (attached to the chain)
+
+Be careful the list of files in the crap.txt should end with no empty line
+otherwise it thinks there is a new file.
+
+In Steps:
+
+1) |myTerm> root -l
+2) root[ ] .x runAlpha_T.cc("sampleName")
+
+Note: Do NOT change the hearer file ("alpha_T.h"). Normally you should
+      only change the source file "alpha_T.C" for all the different
+      things you want to do during looping over the trees.

@@ -1,0 +1,9 @@
+*********************
+*    README FIRST   *
+*********************
+ROOT allows you to execute C++ code in place of the selection cuts and plotting variables. These
+functions can be interpreted by ROOT interactively, or compiled and run (improving execution
+speed). You have access to all the utility functions stored in the ROOT libraries as well.
+If you want to be able to access variables within your Tree, you need to create a class for the Tree.
+
+--> Start by following detailed instructions found in "makeClass.C" file.

@@ -1,0 +1,12 @@
+INSTRUCTIONS
+------------
+- Do NOT change the header file "alpha_T.h". It works fine!
+
+- To run the code all you have to do is execute the "run.C" macro in
+  ROOT, as following:
+
+|myTerm> root -l
+root[ ] .x run.C
+
+- The list of files to be run are given by the means of a TChain in
+  the "run.C" macro.
