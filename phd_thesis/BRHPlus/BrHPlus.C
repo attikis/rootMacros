@@ -100,7 +100,8 @@ void BrHPlus(void) {
   PlotClass plotter;
   const TString FileName =  "FH_results_mhmax.root";
   const TString TreeName = "results";
-  const TString Path = "/Users/administrator/my_work/latex/ucy/PhD/MyPhDThesis/root_macros/BRHPlus/root_files/";
+  // const TString Path = "/Users/administrator/my_work/latex/ucy/PhD/MyPhDThesis/root_macros/BRHPlus/root_files/";
+  const TString Path = "root_files/";
   TFile *MyFile=new TFile(Path+FileName);
   MyFile->cd();
   MyFile->ls();  
